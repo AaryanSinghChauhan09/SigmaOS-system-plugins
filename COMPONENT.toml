@@ -3,12 +3,12 @@ name = "SigmaOS-system-plugins"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "system-plugins component"
+description = "System plugins component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
